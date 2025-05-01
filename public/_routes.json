@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "include": [
+    "/",
+    "/blog",
+    "/blog/*",
+    "/about"
+  ],
+  "exclude": [
+    "/_astro/*",
+    "/assets/*",
+    "/favicon.ico",
+    "/*.css",
+    "/*.js"
+  ]
+}
