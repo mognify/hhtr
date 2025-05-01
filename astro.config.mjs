@@ -13,5 +13,11 @@ export default defineConfig({
     platformProxy: {
       enabled: true,
     },
+    routes: {
+      extend: {
+        include: [{ pattern: '/blog/*' }],
+        exclude: [{ pattern: '/_astro/*' }]
+      }
+    },
   }),
 });
